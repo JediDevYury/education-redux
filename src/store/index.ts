@@ -1,4 +1,4 @@
-import { configureStore } from '@reduxjs/toolkit'
+import {configureStore} from '@reduxjs/toolkit'
 import notificationsSlice from "./features/notifications/notificationsSlice.ts";
 import {apiSlice} from "./features/api/apiSlice.ts";
 
@@ -19,4 +19,4 @@ export default store;
 
 export type RootState = ReturnType<typeof store.getState>
 export type AppDispatch = typeof store.dispatch
-export type AppStore = typeof store;
+export type AppStore = typeof store
